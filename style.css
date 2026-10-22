@@ -1,0 +1,32 @@
+:root{
+        /* brand colors */
+--color-primary:#005AE2;
+--color-secondary-light:#1E3448;
+
+         
+   /* typography */
+           --font-size-xs:16px;
+           --font-size-sm:18px;
+           --font-size-base:24px;
+           --font-size-xl:32px;
+           --font-size-2xl:40px;
+           --font-size-3xl:48px;
+        
+        --font-weight-regular:200;
+         --font-weight-medium:400;
+         --font-weight-semibold:600;
+          --font-weight-bold:900;
+}
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.wrapper{
+    inline-size: 90%;
+    max-inline-size: 1300px;
+    margin:  auto;
+}
