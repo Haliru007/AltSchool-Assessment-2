@@ -114,7 +114,7 @@ button:hover{
 .light{
     background: transparent;
     border: none;
-    color:var(--color-primary)
+    color:var(--color-primary);
 }
 
 
@@ -140,12 +140,13 @@ h1{
 
 
 .url-span::after{
-    content:url('./Assets/section\ 2-1.png');
-    position: absolute;
-    top: 40%;
-    left:25%;
-    inline-size: 173.63px;
-    block-size: 19.91px;
+    content: "";
+    position: absolute;      
+    left: 20%;
+    top: 90%;           
+    inline-size: 173.63px;      
+    block-size: 20px;
+    background: url("./Assets/section\ 2-1.png") no-repeat center / 100% 100%;
 }
 
 
@@ -163,6 +164,7 @@ h1{
 
 .min-wrapper{
     inline-size: 833px;
+    max-inline-size: 100%; 
     block-size: 336.56px;
     position: relative;
     margin: 3rem auto 0 3rem;
@@ -248,58 +250,8 @@ h1{
 
 .hero-bg-img img{
     inline-size: 100%;
-}
-
-.link-container .linked{
-    inline-size: 80px;
-    block-size: 80px;
-   
-}
-
-.link-chains .linked:nth-child(2),
-.link-chains .linked:nth-child(3) {
-    margin-inline-start: -9px;
-}
-
-
-.link-chains .arrow + .linked {
-    margin-inline-start: 24px;
-}
-
-.link-container .arrow{
-    inline-size: 40px;
       display: block;
-    margin-inline-start: 24px;
 }
-
-
-.link-chains{
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    margin-inline:5rem;
-    margin-block: 2rem;
-}
-
-
-.link-container p{
-    font-size: var(--font-size-sm);
-    font-weight: var(--font-weight-extralight);
-    inline-size: 60%;
-    text-align: center;
-    margin: auto;
-}
-
-
-.hero-bg-img{
-    max-inline-size: 1440px;
-    max-block-size: 93px;
-}
-
-.hero-bg-img img{
-    inline-size: 100%;
-}
-
 
 .stats-section .wrapper{
     display: flex;
@@ -308,7 +260,8 @@ h1{
     padding: 60px 140px;
     gap: 120px;
     inline-size: 100%;
-    block-size: 100%;
+    max-inline-size: 1440px;
+    margin-block: 0;   
 }
 
 .stats-section{
@@ -343,7 +296,7 @@ h1{
 }
 
 .stats p{
-    font-size: 15px;
+    font-size: 0.9375rem;
     font-weight: var(--font-weight-light);
     
     
@@ -362,3 +315,12 @@ h1{
     color:var(--color-primary);
     
 }
+
+
+
+
+
+
+
+
+
