@@ -1,4 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+@font-face {
+    font-family: "Gilroy";
+    src: url("./fonts/light-300-11044a79de.ttf") format("truetype");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("./fonts/regular-400-4312cfe314.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("./fonts/medium-500-216a2049de.ttf") format("truetype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("./fonts/semibold-600-070077f0e1.ttf") format("truetype");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("./fonts/bold-700-1b401dcad6.ttf") format("truetype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
 :root{
         /* brand colors */
 --color-primary:#0065FE;
@@ -13,7 +52,7 @@
             --font-size-2xl: 2.5rem;    
             --font-size-3xl: 3rem;
                     
-        --font-weight-extralight:200;
+        
          --font-weight-light:300;
          --font-weight-regular:400;
          --font-weight-medium:500;
@@ -32,7 +71,7 @@
 
 
 body{
-   font-family: "Poppins", sans-serif;
+   font-family: "Gilroy", sans-serif;
 }
 
 
@@ -92,7 +131,7 @@ button{
     border-radius: 100px;
     padding: 12px 24px;
     border: none;
-    font-weight: var(--font-weight-medium);
+    font-weight: var(--font-weight-semibold);
     cursor: pointer;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
@@ -514,6 +553,7 @@ h1{
     display: flex;
     align-items: center;
     gap: 10px;
+    padding-block: 10px;
 }
 
 
@@ -775,9 +815,64 @@ h1{
 
 
 .footer-section{
-    
     position: relative;
     overflow: hidden;
     padding-block: 80px;
 }
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.footer-cols{
+    display: flex;
+    gap: 24px;
+}
+
+.footer-col{
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    flex: 0 0 180px;
+}
+
+.footer-group{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px;
+    font-size: 16px;
+}
+
+.footer-bottom{
+    margin: 40px 0 0;
+    text-align: end;
+}
+
+.footer-bottom a{
+text-decoration: none;
+    color: #112232;
+    font-weight: var(--font-weight-light);
+}
+
+.footer-group h3{
+    padding-block-end: 5px;
+}
+.footer-group li{
+    list-style: none;
+    padding-block:3px ;
+}
+
+.footer-group li a{
+    text-decoration: none;
+    color: #112232;
+    font-weight: var(--font-weight-light);
+}
+
+
+
+
 
