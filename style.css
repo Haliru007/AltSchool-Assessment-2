@@ -453,7 +453,7 @@ h1{
 .intro{
    margin: 0 auto;
     inline-size: 556px;
-    font-size: var(--font-size-xm);
+    font-size: var(--font-size-xs);
     
 }
 
@@ -871,6 +871,7 @@ text-decoration: none;
     color: #112232;
     font-weight: var(--font-weight-light);
 }
+
 
 
 
